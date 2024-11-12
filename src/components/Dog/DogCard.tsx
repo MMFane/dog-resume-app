@@ -1,5 +1,4 @@
 import _toLower from 'lodash/toLower'
-import './Dog.css'
 import tempDog from "./temp-dog.jpg"
 
 
