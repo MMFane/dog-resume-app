@@ -1,11 +1,15 @@
 import React from 'react';
-
+import dogs from "../data/temp-data.json"
+import Dog from './Dog/DogCard';
 
 function DogsList() {
+
   return (
-    <div className="DogsList">
-     <p>Dogs List</p>
-    </div>
+    <ul className="w-full flex container">
+      { dogs.map((dog) => {
+        return <Dog dog={{...dog}} key={dog.id}/>
+      })}   
+    </ul>
   );
 }
 

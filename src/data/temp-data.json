@@ -1,0 +1,26 @@
+[
+    {
+        "id": "123",
+        "name": "Daisy",
+        "description": "Sweet, rough tank",
+        "colors": [
+            "RED",
+            "WHITE"
+        ],
+        "breed": "pitbull mix",
+        "weight": 60,
+        "birthdate": "2018-3-14T18:30:00"
+    },
+    {
+        "id": "456",
+        "name": "Mahalia",
+        "description": "Loveable dingo",
+        "colors": [
+            "TAN",
+            "WHITE"
+        ],
+        "breed": "pitbull mix",
+        "weight": 40,
+        "birthdate": "2020-12-21T18:30:00"
+    }
+]
